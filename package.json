@@ -1,6 +1,6 @@
 {
   "name": "wu-hu-frontend",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
@@ -21,6 +21,8 @@
     "@angular/platform-browser": "^2.3.1",
     "@angular/platform-browser-dynamic": "^2.3.1",
     "@angular/router": "^3.3.1",
+    "angular2-jwt": "^0.1.28",
+    "bootstrap": "4.0.0-alpha.6",
     "core-js": "^2.4.1",
     "rxjs": "^5.0.1",
     "ts-helpers": "^1.1.1",
@@ -43,5 +45,22 @@
     "ts-node": "1.2.1",
     "tslint": "^4.3.0",
     "typescript": "~2.0.3"
-  }
+  },
+  "description": "This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.25.5.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxincredible52/WuHu-frontend.git"
+  },
+  "keywords": [
+    "angular2",
+    "wuhu",
+    "wuzlhub",
+    "web-frontend"
+  ],
+  "author": "Max Zauner",
+  "bugs": {
+    "url": "https://github.com/Maxincredible52/WuHu-frontend/issues"
+  },
+  "homepage": "https://github.com/Maxincredible52/WuHu-frontend#readme"
 }
