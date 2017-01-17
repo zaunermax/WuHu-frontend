@@ -1,4 +1,11 @@
-<app-navigation></app-navigation>
-<div class='main-container container-fluid'>
-  <router-outlet></router-outlet>
+<div id='wrapper'>
+  <div id='sidebar-wrapper'>
+    <app-navigation></app-navigation>
+  </div>
+  <div id="page-content-wrapper">
+    <div class='main-container container-fluid'>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
 </div>
+
