@@ -10,6 +10,7 @@ export class LoggedInGuardService implements CanActivate {
   }
 
   canActivate() : boolean  {
+
     if (this.authService.loggedIn()) {
       return true;
     }
